@@ -1,0 +1,37 @@
+.displayproduct-container{
+    display: flex;
+}
+.person{
+    box-shadow: 3px 0px 5px gray;
+    transition: 0.3s;
+    height: 500px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 30px;
+}
+.person:hover{
+    box-shadow: 0px 5px 5px gray;
+    
+}
+.person img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    
+}
+
+.cart{
+    width: 25%;
+}
+
+button{
+    padding: 5px 25px;
+    background: #64cdef;
+    color: rgb(38 38 38);
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
